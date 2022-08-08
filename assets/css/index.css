@@ -3,7 +3,7 @@
     height: 450px;
 }
 
-.carousel-caption p, h5
+.carousel-caption p, h1
 {
     color: black;
 }
@@ -16,8 +16,8 @@
 
 .imgAvtcard
 {
-    height: 20rem;
-    width: 20rem;
+    height: 17rem;
+    width: 15rem;
     border-radius: 50%;
     margin-bottom: 1rem;
 }
@@ -46,4 +46,9 @@
 
     background: #10221b;
     color: #fff;
+}
+
+.ideeDaventure
+{
+    padding: 5rem 9%;
 }
