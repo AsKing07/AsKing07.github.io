@@ -1,0 +1,49 @@
+.image
+{
+    height: 450px;
+}
+
+.carousel-caption p, h5
+{
+    color: black;
+}
+
+.carousel-caption p
+{
+    font-size: large;
+    font-weight: bold;
+}
+
+.imgAvtcard
+{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.AvtCard
+{
+    border: none;
+}
+
+.btnAvt
+ {
+    border: 0.1rem solid #10221b;
+    color: #10221b;
+    cursor: pointer;
+    background: none;
+    font-size: 1.5rem;
+}
+
+.AvtCard:hover .btnAvt
+{
+    border-color: #fff;
+}
+
+.btnAvt:hover 
+{
+
+    background: #10221b;
+    color: #fff;
+}
