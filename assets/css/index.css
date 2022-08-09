@@ -39,6 +39,7 @@
     cursor: pointer;
     background: none;
     font-size: 1.5rem;
+    margin-top: 5px;
 }
 
 .AvtCard:hover .btn
@@ -172,7 +173,7 @@
     background: #fff;
     border: 0.2rem solid #10221b;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-    border-radius: .5rem;
+    border-radius: 20px;
     margin: 10px;
   }
   
