@@ -72,3 +72,117 @@
     height: 300px;
     box-shadow: 2rem 2rem  rgba(0, 0, 0, 0.1);
   }
+
+  
+
+
+
+
+.prod
+  {
+    border: 0.2rem solid #10221b;
+  }
+  
+.prod:hover .imageprod .icons 
+  {
+    transform: translateY(0);
+  }
+  
+.prod .imageprod 
+ {
+   position: relative;
+   overflow: hidden;/**/
+    height: 15rem;
+    width: 100%;
+  }
+  
+  .prod .imageprod img
+   {
+    height: 100%;
+    width: 100%;
+   }
+  
+  .prod .imageprod .icons 
+  {
+    width: 100%;
+    position: absolute;
+    bottom: 2rem;
+    z-index: 10;
+    transform: translateY(7rem);
+  }
+  
+  .prod .imageprod .icons a 
+  {
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 1.7rem;
+    background: #10221b;
+    color: #fff;
+  }
+  
+.prod .imageprod .icons a:hover 
+  {
+    background: #219150;
+  }
+
+  .prod .card-body  h3
+   {
+    font-size: 1.5rem;
+    color: #10221b;
+  }
+  
+  .prod .card-body .price
+   {
+    padding: 1rem 0;
+    padding-top: .5rem;
+    font-size: 1rem;
+    color: #219150;
+  }
+  
+  .prod .card-body  .stars i 
+  {
+    font-size: 1.2rem;
+    color: #10221b;
+  }
+
+
+
+  /*.carousel-control-prev-icon,.carousel-control-next-icon 
+  {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}*/
+
+.carousel-control-next-icon,.carousel-control-prev-icon 
+{
+  filter: invert(1);
+}
+
+.carousel-control-next-icon 
+{
+  margin-left: 150px;
+}
+
+.carousel-control-prev-icon 
+{
+  margin-right: 150px;
+}
