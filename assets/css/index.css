@@ -148,6 +148,84 @@
 
 
 
+
+  .offres
+  {
+    background: #eee;
+  }
+  
+  
+  .offres .container .card 
+  {
+    text-align: center;
+    background: #fff;
+    border: 0.2rem solid #10221b;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+  }
+  
+  .offres .container .card:hover 
+  {
+    background: #10221b;
+  }
+  
+  .offres .container .card:hover .card-body > * 
+  {
+    color: #fff;
+  }
+  
+  .offres .container .card:hover .btn 
+  {
+    border-color: #fff;
+  }
+  
+  .offres .container .card:hover .btn:hover 
+  {
+    background: #fff;
+    color: #10221b;
+  }
+  
+  .offres .container .card .imageoffre 
+  {
+    height: 10rem;
+    overflow: hidden;
+    padding: 2rem;
+    padding-bottom: 0;
+    border-radius: .5rem;
+  }
+  
+  .offres .container .card .imageoffre img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: .5rem;
+  }
+  
+  .packages .box-container .box .content {
+    padding: 2rem;
+  }
+  
+  .packages .box-container .box .content h3 {
+    font-size: 2rem;
+    color: #10221b;
+  }
+  
+  .packages .box-container .box .content p {
+    font-size: 1.5rem;
+    color: #10221b;
+    padding: 1rem 0;
+    line-height: 2;
+  }
+  
+  .packages .box-container .box .content .price 
+  {
+    font-size: 2rem;
+    color: #219150;
+  }
+
+
+
   /*.carousel-control-prev-icon,.carousel-control-next-icon 
   {
   height: 100px;
