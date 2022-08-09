@@ -1,3 +1,8 @@
+.zoneCarousel::hover
+{
+    background-color: black;
+}
+
 .image
 {
     height: 450px;
@@ -14,10 +19,11 @@
     font-weight: bold;
 }
 
+/***************************** SECTION IDEES AVENTURES **********************************/
 .imgAvtcard
 {
-    height: 20rem;
-    width: 20rem;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
 }
 
@@ -53,6 +59,8 @@
 }
 
 
+
+/*************************** SECTION EXPERIENCE ******************************/
 .experience
 {
     background: #eee;
@@ -76,11 +84,13 @@
   
 
 
-
+  /**************************** SECTION PRODUITS ***********************************/
 
 .prod
   {
     border: 0.2rem solid #10221b;
+    margin: 10px;
+    border-radius: 20px;
   }
   
 .prod:hover .imageprod .icons 
@@ -149,6 +159,7 @@
 
 
 
+/************************ SECTION OFFRE ************************/
   .offres
   {
     background: #eee;
@@ -162,6 +173,7 @@
     border: 0.2rem solid #10221b;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     border-radius: .5rem;
+    margin: 10px;
   }
   
   .offres .container .card:hover 
@@ -194,33 +206,28 @@
     border-radius: .5rem;
   }
   
-  .offres .container .card .imageoffre img {
+  .offres .container .card .imageoffre img 
+  {
     height: 100%;
     width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
     border-radius: .5rem;
   }
   
-  .packages .box-container .box .content {
+  .offres .container .card .card-body 
+  {
     padding: 2rem;
   }
   
-  .packages .box-container .box .content h3 {
-    font-size: 2rem;
-    color: #10221b;
-  }
-  
-  .packages .box-container .box .content p {
-    font-size: 1.5rem;
-    color: #10221b;
-    padding: 1rem 0;
-    line-height: 2;
-  }
-  
-  .packages .box-container .box .content .price 
+  .offres .container .card .card-body h3 
   {
     font-size: 2rem;
+    color: #10221b;
+  }
+  
+  
+  .offres .container .card .card-body .price 
+  {
+    font-size: 1.5rem;
     color: #219150;
   }
 
